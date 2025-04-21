@@ -1,4 +1,4 @@
-tunnelbanekarta = {
+let tunnelbanekarta = {
     "Abrahamsberg": {
       "level": 10,
       "exits": {
@@ -53,7 +53,7 @@ tunnelbanekarta = {
             "elevator": true
           },
           {
-            "pos": " 59.239903,17.846196",
+            "pos": "59.239903,17.846196",
             "name": "Albyberget",
             "elevator": true
           }
@@ -107,7 +107,7 @@ tunnelbanekarta = {
         "down": [],
         "middle": [
           {
-            "pos": " 59.306469,18.001463",
+            "pos": "59.306469,18.001463",
             "name": "Aspudden (Erik Segersälls väg)",
             "placement": "middle",
             "elevator": true
@@ -288,7 +288,7 @@ tunnelbanekarta = {
       "exits": {
         "up": [
           {
-            "pos": "59.392281,18.040152 ",
+            "pos": "59.392281,18.040152",
             "name": "Danderyds sjukhus",
             "elevator": true
           }
@@ -399,7 +399,7 @@ tunnelbanekarta = {
       "exits": {
         "up": [
           {
-            "pos": " 59.334919,18.025206",
+            "pos": "59.334919,18.025206",
             "name": "Mariebergsgatan/S:t Görans sjukhus",
             "elevator": true
           }
@@ -500,7 +500,7 @@ tunnelbanekarta = {
       "exits": {
         "up": [
           {
-            "pos": " 59.294479,18.078282",
+            "pos": "59.294479,18.078282",
             "name": "Globenområdet/Arenavägen/Konstgjutarvägen",
             "elevator": true
           }
@@ -577,7 +577,7 @@ tunnelbanekarta = {
         ],
         "down": [
           {
-            "pos": " 59.344827,18.098581",
+            "pos": "59.344827,18.098581",
             "name": "Brantingsgatan, Askrikegatan",
             "elevator": true
           }
@@ -693,8 +693,8 @@ tunnelbanekarta = {
         ],
         "down": [
           {
-            "pos": "59.315762,18.034186, Bergsunds Strand",
-            "name": "Torget/Gallerian",
+            "pos": "59.315762,18.034186",
+            "name": "Torget/Gallerian/Bergsunds Strand",
             "elevator": true
           }
         ],
@@ -718,7 +718,7 @@ tunnelbanekarta = {
         ],
         "down": [
           {
-            "pos": " 59.408152,17.928786",
+            "pos": "59.408152,17.928786",
             "name": "Husby centrum Södra/Husby kyrka",
             "elevator": true
           }
@@ -759,7 +759,7 @@ tunnelbanekarta = {
         ],
         "down": [
           {
-            "pos": " 59.294441,17.976401",
+            "pos": "59.294441,17.976401",
             "name": "Personnevägen/Skidvägen",
             "elevator": true
           }
