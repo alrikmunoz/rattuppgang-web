@@ -4,7 +4,7 @@ function reverseCoordinates(pos) {
     return `${lon},${lat}`;
 }
 
-function generateKMLForAllStations(data) {//: Tunnelbanekarta) {
+function generateKMLForAllStations(data) {
     const kmlHeader = `<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>`;
@@ -17,7 +17,7 @@ function generateKMLForAllStations(data) {//: Tunnelbanekarta) {
             for (const exit of exitList) {
                 placemarks += `
 <Placemark>
-    <name>${exit.name}</name>
+    <name>${stationName} - ${exit.name}</name>
     <description>${stationName} - ${position} exit</description>
     <Point>
         <coordinates>${reverseCoordinates(exit.pos)},0</coordinates>
